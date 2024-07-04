@@ -1,0 +1,60 @@
+.container {
+  max-width: 400px;
+  height: 60%;
+  margin: 0 auto;
+  background-color: #62c8f0;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px rgba(190, 188, 188, 0.315);
+  text-align: center;
+}
+
+.country {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.data-hour {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.temperature-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 0 10px;
+}
+
+.temperature-min-max {
+  display: flex;
+  align-items: center;
+}
+
+.temperature-min-max p {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.other-info {
+    background-color: #f5f5f5;
+    color: #777;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(190, 188, 188, 0.315);
+} 
+
+span {
+    color: #777;
+    width: 20%;
+}
